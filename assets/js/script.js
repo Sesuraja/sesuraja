@@ -98,20 +98,22 @@ async function fetchData(type = "skills") {
     return data;
 }
 
-function showSkills(skills) {
-    let skillsContainer = document.getElementById("skillsContainer");
-    let skillHTML = "";
-    skills.forEach(skill => {
-        skillHTML += `
-        <div class="bar">
+function showProjects(projects) {
+    let projectsContainer = document.getElementById("projectsContainer");
+    let projectHTML = "";
+    projects.forEach(project => {
+        projectHTML += `
+        <div class="project">
               <div class="info">
-                <img src=${skill.icon} alt="skill" />
-                <span>${skill.name}</span>
+                <h3>${project.title}</h3>
+                <p>${project.description}</p>
+                <a href="${project.url}" target="_blank" class="btn">View Project</a>
               </div>
             </div>`
     });
-    skillsContainer.innerHTML = skillHTML;
+    projectsContainer.innerHTML = projectHTML;
 }
+    
 
 
 
