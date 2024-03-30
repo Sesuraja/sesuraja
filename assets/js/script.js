@@ -45,7 +45,7 @@ $(document).ready(function () {
     // Convert email to lowercase
     var email = $("#email").val().toLowerCase();
 
-    emailjs.init("event_24bd5f82c03b50709e68386c");
+    emailjs.init("user_RCp3EfO6ZPLty08684A2H");
 
     // Update the email field with the lowercase value
     $("#email").val(email);
