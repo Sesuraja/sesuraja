@@ -42,7 +42,13 @@ $(document).ready(function () {
     $("#contact-form").submit(function(event) {
     event.preventDefault(); // Prevent the form from submitting normally
 
+    // Convert email to lowercase
+    var email = $("#email").val().toLowerCase();
+
     emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+
+    // Update the email field with the lowercase value
+    $("#email").val(email);
 
     emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
         .then(function(response) {
@@ -54,6 +60,7 @@ $(document).ready(function () {
             alert("Form Submission Failed! Try Again");
         });
 });
+    
     
     // <!-- emailjs to mail contact form data -->
 
