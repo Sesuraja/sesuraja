@@ -28,7 +28,6 @@ $(document).ready(function () {
             }
         });
     });
-    
 
     // smooth scrolling
     $('a[href*="#"]').on('click', function (e) {
@@ -39,31 +38,23 @@ $(document).ready(function () {
     });
 
     // <!-- emailjs to mail contact form data -->
-    $("#contact-form").submit(function(event) {
-    event.preventDefault(); // Prevent the form from submitting normally
+    $("#contact-form").submit(function (event) {
+        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
 
-    // Convert email to lowercase
-    var email = $("#email").val().toLowerCase();
-
-    emailjs.init("user_RCp3EfO6ZPLty08684A2H");
-
-    // Update the email field with the lowercase value
-    $("#email").val(email);
-
-    emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-        .then(function(response) {
-            console.log('SUCCESS!', response.status, response.text);
-            document.getElementById("contact-form").reset(); // Reset the form after successful submission
-            alert("Form Submitted Successfully");
-        }, function(error) {
-            console.log('FAILED...', error);
-            alert("Form Submission Failed! Try Again");
-        });
-});
-    
-    
+        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
+            .then(function (response) {
+                console.log('SUCCESS!', response.status, response.text);
+                document.getElementById("contact-form").reset();
+                alert("Form Submitted Successfully");
+            }, function (error) {
+                console.log('FAILED...', error);
+                alert("Form Submission Failed! Try Again");
+            });
+        event.preventDefault();
+    });
     // <!-- emailjs to mail contact form data -->
 
+});
 
 document.addEventListener('visibilitychange',
     function () {
@@ -80,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["full stack developer", "frontend development", "backend development", "web designing", "web development"],
+    strings: ["Full Stack Developer","frontend development", "backend development", "web designing", "web development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -97,7 +88,7 @@ async function fetchData(type = "skills") {
     const data = await response.json();
     return data;
 }
-    
+
 function showSkills(skills) {
     let skillsContainer = document.getElementById("skillsContainer");
     let skillHTML = "";
@@ -135,7 +126,7 @@ function showProjects(projects) {
     </div>`
     });
     projectsContainer.innerHTML = projectHTML;
-    
+
     // <!-- tilt js effect starts -->
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
         max: 15,
@@ -155,7 +146,7 @@ function showProjects(projects) {
 
 }
 
-fetchData("skills").then(data => {
+fetchData().then(data => {
     showSkills(data);
 });
 
@@ -258,7 +249,3 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
-    
-
-
-
