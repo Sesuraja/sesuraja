@@ -101,13 +101,13 @@ async function fetchData(type = "skills") {
     let skillsContainer = document.getElementById("skillsContainer");
     let skillHTML = "";
     skills.forEach(skill => {
-        skillHTML += `
+        skillHTML += 
         <div class="bar">
               <div class="info">
                 <img src=${skill.icon} alt="skill" />
                 <span>${skill.name}</span>
               </div>
-            </div>`
+            </div>
     });
     skillsContainer.innerHTML = skillHTML;
     }
