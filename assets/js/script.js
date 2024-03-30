@@ -112,21 +112,7 @@ async function fetchData(type = "skills") {
     skillsContainer.innerHTML = skillHTML;
     }
 
-function showProjects(projects) {
-    let projectsContainer = document.getElementById("projectsContainer");
-    let projectHTML = "";
-    projects.forEach(project => {
-        projectHTML += `
-        <div class="project">
-              <div class="info">
-                <h3>${project.title}</h3>
-                <p>${project.description}</p>
-                <a href="${project.url}" target="_blank" class="btn">View Project</a>
-              </div>
-            </div>`
-    });
-    projectsContainer.innerHTML = projectHTML;
-}
+
     
 
 
