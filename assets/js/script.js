@@ -155,7 +155,7 @@ function showProjects(projects) {
 
 }
 
-fetchData().then(data => {
+fetchData("skills").then(data => {
     showSkills(data);
 });
 
