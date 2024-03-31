@@ -126,7 +126,7 @@ function showProjects(projects) {
     });
 
     projectsContainer.innerHTML = projectHTML;
-    
+}
     // <!-- tilt js effect starts -->
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
         max: 15,
