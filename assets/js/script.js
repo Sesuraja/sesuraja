@@ -124,7 +124,7 @@ function showProjects(projects) {
       </div>
     </div>`   
     });
-}
+
     projectsContainer.innerHTML = projectHTML;
     
     // <!-- tilt js effect starts -->
