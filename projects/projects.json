@@ -1,0 +1,21 @@
+[{
+  "name": "Face Recognition Attendance System",
+  "desc": "A face recognition attendance system uses facial verification to automatically record an employee's attendance and scan their facial features",
+  "image": "",
+  "category": "basicweb",
+  "links": {
+    "view": "#",
+    "code": "#"
+  }
+},
+{
+  "name": "Indoor Navigation in AR",
+  "desc": "This can be viewed through a device's camera, like a smartphone. AR-based indoor navigation can help users navigate through complex buildings without using physical maps or help desks.",
+  "image": "",
+  "category": "basicweb",
+  "links": {
+    "view": "#",
+    "code": "#"
+  }
+}
+]
