@@ -18,14 +18,17 @@
         "name": "Sass",
         "icon": "https://img.icons8.com/color/48/000000/sass.png"
     },
+    
     {
         "name": "HTML5",
         "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
     },
+    
     {
         "name": "CSS3",
         "icon": "https://img.icons8.com/color/48/000000/css3.png"
     },
+    
     {
         "name": "JavaScript",
         "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
@@ -50,6 +53,7 @@
         "name": "MongoDB",
         "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
     },
+    
     {
         "name": "MySQL",
         "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
@@ -59,6 +63,7 @@
         "name": "GitHub",
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
     },
+    
     {
         "name": "WordPress",
         "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
