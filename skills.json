@@ -8,6 +8,11 @@
         "name": "NodeJS",
         "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
     },
+
+    {
+        "name": "Angular",
+        "icon": "https://icons8.com/icon/j9DnICNnlhGk/angularjs.png"
+    },
     
     {
         "name": "Sass",
@@ -32,6 +37,16 @@
     {
         "name": "Python",
         "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+    },
+
+    {
+        "name": "Java",
+        "icon": "https://icons8.com/icon/GPfHz0SM85FX/java.png"
+    },
+
+    {
+        "name": "C#",
+        "icon": "https://icons8.com/icon/45490/c-sharp-logo-2.png"
     },
     
     {
