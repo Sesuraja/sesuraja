@@ -13,8 +13,7 @@
         "name": "Angular",
         "icon": "https://icons8.com/icon/71257/angularjs.png"
     },
-
-
+    
     {
         "name": "Sass",
         "icon": "https://img.icons8.com/color/48/000000/sass.png"
@@ -31,7 +30,6 @@
         "name": "JavaScript",
         "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
     },
-
 
     {
         "name": "Python",
