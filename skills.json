@@ -39,6 +39,16 @@
     },
 
     {
+        "name": "Java",
+        "icon": "https://icons8.com/icon/13679/java.png"
+    },
+
+    {
+        "name": "C#",
+        "icon": "https://icons8.com/icon/45490/c-sharp-logo-2.png"
+    },
+
+    {
         "name": "MongoDB",
         "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
     },
