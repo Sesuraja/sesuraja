@@ -13,7 +13,7 @@
     },
     {
         "name": "Angular",
-        "icon": "https://icons8.com/icon/j9DnICNnlhGk/angularjs.png"
+        "icon": "https://img.icons8.com/color/48/000000/angularjs.png"
     },
     {
         "name": "HTML5",
@@ -54,5 +54,5 @@
     {
         "name": "WordPress",
         "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
-    },
+    }
 ]
