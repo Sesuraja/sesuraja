@@ -38,18 +38,7 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    // <!-- emailjs to mail contact form data -->
-  const form = document.getElementById("contact-form");
-
-  form.addEventListener("submit", function () {
-    setTimeout(() => {
-      alert("✅ Thank you! Your message has been sent successfully.");
-      form.reset();
-    }, 500);
-  });
-    // <!-- emailjs to mail contact form data -->
-
-});
+    
 
 document.addEventListener('visibilitychange', function () {
     if (document.visibilityState === "visible") {
