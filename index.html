@@ -347,43 +347,28 @@ platform, enhancing user experience and productivity.</p>
       </div>
 
 <!-- Contact Form -->
-<form id="contact-form"
-      action="https://formspree.io/f/xzdppqvj"
-      method="POST">
-
-  <!-- Email subject & template -->
-  <input type="hidden" name="_subject" value="New Portfolio Contact Message">
-  <input type="hidden" name="_template" value="table">
-
-  <!-- Optional redirect after submit -->
-  <!-- <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html"> -->
-
-  <!-- Spam protection (honeypot) -->
-  <input type="text" name="_gotcha" style="display:none">
+<!-- Contact Form -->
+<form id="contact-form">
 
   <div class="form-group">
 
     <div class="field">
-      <label for="name" class="sr-only">Name</label>
-      <input type="text" id="name" name="name" placeholder="Name" required>
+      <input type="text" name="name" placeholder="Name" required>
       <i class="fas fa-user"></i>
     </div>
 
     <div class="field">
-      <label for="email" class="sr-only">Email</label>
-      <input type="email" id="email" name="_replyto" placeholder="Email" required>
+      <input type="email" name="email" placeholder="Email" required>
       <i class="fas fa-envelope"></i>
     </div>
 
     <div class="field">
-      <label for="phone" class="sr-only">Phone</label>
-      <input type="text" id="phone" name="phone" placeholder="Phone">
+      <input type="text" name="phone" placeholder="Phone">
       <i class="fas fa-phone-alt"></i>
     </div>
 
     <div class="message">
-      <label for="message" class="sr-only">Message</label>
-      <textarea id="message" name="message" placeholder="Message" required></textarea>
+      <textarea name="message" placeholder="Message" required></textarea>
       <i class="fas fa-comment-dots"></i>
     </div>
 
@@ -396,6 +381,7 @@ platform, enhancing user experience and productivity.</p>
   </div>
 
 </form>
+
     </div> 
   </div> 
 </section>
@@ -474,9 +460,36 @@ platform, enhancing user experience and productivity.</p>
 <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
 <script src="./assets/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+(function() {
+  emailjs.init("JYynLccpbym094tkh");
+})();
+
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  emailjs.sendForm(
+    "service_34pn4j2",
+    "template_zyw8est",
+    this
+  ).then(
+    function() {
+      alert("Thank you for your message. It has been sent successfully.");
+      document.getElementById("contact-form").reset();
+    },
+    function(error) {
+      alert("Failed to send message. Please try again.");
+      console.error(error);
+    }
+  );
+});
+</script>
 
 </body>
 </html>
+
 
 
 
