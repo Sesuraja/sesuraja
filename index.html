@@ -457,8 +457,6 @@ platform, enhancing user experience and productivity.</p>
       src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
     ></script>
 
-<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
-
 <script src="./assets/js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
@@ -472,7 +470,8 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
 
   emailjs.sendForm(
     "service_34pn4j2",
-    "template_kg1h3rh",
+    "template_kg1h3rh",
+
     this
   ).then(
     function() {
@@ -484,11 +483,13 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
       console.error(error);
     }
   );
-});
 </script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
 </body>
 </html>
+
 
 
 
