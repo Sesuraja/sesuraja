@@ -1,21 +1,31 @@
 [{
   "name": "Face Recognition Attendance System",
   "desc": "A face recognition attendance system uses facial verification to automatically record an employee's attendance and scan their facial features",
-  "image": "",
+  "image": "../assets/images/ar.jpg",
   "category": "basicweb",
   "links": {
-    "view": "#",
-    "code": "#"
+    "view": "https://github.com/Sesuraja/Face-Recognition-Attendance-System-",
+    "code": "https://github.com/Sesuraja/Face-Recognition-Attendance-System-"
   }
 },
 {
   "name": "Indoor Navigation in AR",
-  "desc": "This can be viewed through a device's camera, like a smartphone. AR-based indoor navigation can help users navigate through complex buildings without using physical maps or help desks.",
-  "image": "",
+  "desc": "This Can Be Viewed Through A Device's Camera, Like A Smartphone. AR-Based Indoor Navigation Can Help Users Navigate Through Complex Buildings Without Using Physical Maps Or Help Desks.",
+  "image": "../assets/images/face.jpeg",
   "category": "basicweb",
   "links": {
-    "view": "#",
-    "code": "#"
+    "view": "https://github.com/Sesuraja/Indoor-Navigation-Using-AR",
+    "code": "https://github.com/Sesuraja/Indoor-Navigation-Using-AR"
+  }
+},
+{
+  "name": "Indoor Navigation in AR",
+  "desc": "Developed a mobile application that seamlessly integrates multiple web applications into a unified platform, enhancing user experience and productivity.",
+  "image": "../assets/images/one.jpg",
+  "category": "basicweb",
+  "links": {
+    "view": "https://github.com/Sesuraja/OneGenius",
+    "code": "https://github.com/Sesuraja/OneGenius"
   }
 }
 ]
