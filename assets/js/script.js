@@ -87,7 +87,7 @@ function showSkills(skills) {
 
 
 
-fetchData("skills").then(data => {
+fetchData().then(data => {
     showSkills(data);
 });
 
