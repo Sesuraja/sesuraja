@@ -11,7 +11,7 @@
 {
   "name": "Indoor Navigation in AR",
   "desc": "This Can Be Viewed Through A Device's Camera, Like A Smartphone. AR-Based Indoor Navigation Can Help Users Navigate Through Complex Buildings Without Using Physical Maps Or Help Desks.",
-  "image": "../assets/images/face.jpeg",
+  "image": "./assets/images/face.jpeg",
   "category": "basicweb",
   "links": {
     "view": "https://github.com/Sesuraja/Indoor-Navigation-Using-AR",
@@ -21,7 +21,7 @@
 {
   "name": "Super App Framework For Multi-Application (OneGenius)",
   "desc": "Developed a mobile application that seamlessly integrates multiple web applications into a unified platform, enhancing user experience and productivity.",
-  "image": "../assets/images/one.jpg",
+  "image": "./assets/images/one.jpg",
   "category": "basicweb",
   "links": {
     "view": "https://github.com/Sesuraja/OneGenius",
@@ -29,5 +29,6 @@
   }
 }
 ]
+
 
 
