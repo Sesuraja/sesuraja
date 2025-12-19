@@ -1225,4 +1225,9 @@ form .button-area {
 }
 /* scroll top ends */
 
+.experience {
+  min-height: auto !important;
+  padding-bottom: 4rem;
+}
+
 
