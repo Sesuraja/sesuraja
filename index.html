@@ -460,35 +460,13 @@ platform, enhancing user experience and productivity.</p>
 <script src="./assets/js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
-<script>
-(function() {
-  emailjs.init("JYynLccpbym094tkh");
-})();
 
-document.getElementById("contact-form").addEventListener("submit", function(e) {
-  e.preventDefault();
-
-  emailjs.sendForm(
-    "service_34pn4j2",
-    "template_kg1h3rh",
-
-    this
-  ).then(
-    function() {
-      alert("Thank you for your message. It has been sent successfully.");
-      document.getElementById("contact-form").reset();
-    },
-    function(error) {
-      alert("Failed to send message. Please try again.");
-      console.error(error);
-    }
-  );
-</script>
 
 <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
 </body>
 </html>
+
 
 
 
