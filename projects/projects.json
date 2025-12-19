@@ -1,7 +1,7 @@
 [{
   "name": "Face Recognition Attendance System",
   "desc": "A face recognition attendance system uses facial verification to automatically record an employee's attendance and scan their facial features",
-  "image": "../assets/images/ar.jpg",
+  "image": "./assets/images/ar.jpg",
   "category": "basicweb",
   "links": {
     "view": "https://github.com/Sesuraja/Face-Recognition-Attendance-System-",
@@ -29,3 +29,4 @@
   }
 }
 ]
+
