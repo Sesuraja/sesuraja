@@ -19,7 +19,7 @@
   }
 },
 {
-  "name": "Indoor Navigation in AR",
+  "name": "Super App Framework For Multi-Application (OneGenius)",
   "desc": "Developed a mobile application that seamlessly integrates multiple web applications into a unified platform, enhancing user experience and productivity.",
   "image": "../assets/images/one.jpg",
   "category": "basicweb",
@@ -29,4 +29,5 @@
   }
 }
 ]
+
 
