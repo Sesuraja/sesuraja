@@ -10,7 +10,7 @@ Highly skilled and results-driven Software Engineer and Full Stack Developer wit
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/sesuraja) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:Sesuraja771@gmail.com) 
 
 
-### ✨ Connect with Me
+## ✨ Connect with Me
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sesuraja.github.io/sesuraja/)
 
