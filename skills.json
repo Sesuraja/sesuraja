@@ -12,10 +12,6 @@
         "icon": "https://img.icons8.com/color/48/000000/sass.png"
     },
     {
-        "name": "Angular",
-        "icon": "https://img.icons8.com/color/48/000000/angularjs.png"
-    },
-    {
         "name": "HTML5",
         "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
     },
@@ -30,14 +26,6 @@
     {
         "name": "Python",
         "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
-    },
-    {
-        "name": "Java",
-        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
-    },
-    {
-        "name": "C#",
-        "icon": "https://img.icons8.com/color/48/000000/c-sharp-logo-2.png"
     },
     {
         "name": "MongoDB",
